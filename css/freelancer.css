@@ -9896,3 +9896,10 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+
+.iframe-contacto-formulario{
+  width: 100%;
+  height: 120vh;
+  margin:auto !important;
+}
