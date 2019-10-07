@@ -9732,7 +9732,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center;
 
   filter:blur(5px);
-  transform:scale(1);
+  transform:scale(1.2);
 }
 .masthead {
   padding: 150px 0 !important;
@@ -9753,7 +9753,7 @@ a.text-dark:hover, a.text-dark:focus {
   z-index: -1;
 
   background: #3E5B7E;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .masthead .masthead-heading {
