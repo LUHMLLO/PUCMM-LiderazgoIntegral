@@ -9795,10 +9795,24 @@ a.text-dark:hover, a.text-dark:focus {
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
   max-width: 25rem;
+  height: 200px;
   border-radius: 0.5rem;
   overflow: hidden;
+  object-fit: cover !important;
+}
+
+.portfolio .portfolio-item img {
+  width:100% !important;
+  height:auto !important;
+  object-fit: cover !important;
+  transform: scale(0.8);
+  margin:auto !important;
+  position: relative;
+  z-index: -1;
+  pointer-events: none !important;
 }
 
 .portfolio-item-caption-name{
