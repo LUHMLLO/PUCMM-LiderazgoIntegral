@@ -9797,17 +9797,15 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   display: flex;
   justify-content: center;
-  max-width: 25rem;
+  max-width: 25rem !important;
   height: 200px;
   border-radius: 0.5rem;
   overflow: hidden;
-  object-fit: cover !important;
 }
 
 .portfolio .portfolio-item img {
-  width:100% !important;
+  width:90% !important;
   height:auto !important;
-  object-fit: cover !important;
   transform: scale(0.8);
   margin:auto !important;
   position: relative;
