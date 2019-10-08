@@ -9582,7 +9582,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: 16px auto !important;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -9758,7 +9758,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .masthead .masthead-heading {
   font-size: 2.75rem;
-  line-height: 1.10 !important;
 }
  @media (max-width:991px){  
   .masthead .masthead-heading {
@@ -9930,4 +9929,9 @@ form .row:first-child .floating-label-form-group {
   height: 120vh;
   max-height: auto !important;
   margin:auto !important;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  line-height: 1.10 !important;
 }
