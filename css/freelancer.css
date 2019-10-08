@@ -9757,7 +9757,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2.75rem; 
+  width:100%;
 }
  @media (max-width:991px){  
   .masthead .masthead-heading {
@@ -9804,12 +9805,19 @@ a.text-dark:hover, a.text-dark:focus {
 
 .portfolio .portfolio-item img {
   width:90% !important;
-  height:auto !important;
+  min-width:0 !important;
+  min-height: 0 !important;
   transform: scale(0.8);
   margin:auto !important;
   position: relative;
   z-index: -1;
   pointer-events: none !important;
+
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left:0;
 }
 
 .portfolio-item-caption-name{
@@ -9925,13 +9933,31 @@ form .row:first-child .floating-label-form-group {
 
 .iframe-contacto-formulario{
   width: 100%;
-  min-height: 100%;
   height: 120vh;
-  max-height: auto !important;
   margin:auto !important;
+  overflow: hidden !important;
+  position: relative;
+}
+.iframe-contacto-formulario iframe{
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@media (max-width:991px){
+  .iframe-contacto-formulario{
+    height: 150vh;
+    overflow:hidden !important;
+  }
+  .iframe-contacto-formulario::-webkit-scrollbar{
+    display: none !important;
+  }
 }
 
 
 h1,h2,h3,h4,h5,h6{
   line-height: 1.10 !important;
+  white-space: normal !important;
 }
