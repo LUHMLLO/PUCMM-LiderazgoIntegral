@@ -9699,11 +9699,12 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: #3E5B7D;
     background: #F3D310;
+    font-size:18px !important;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #3E5B7D;
     background: #F3D310;
   }
   #mainNav.navbar-shrink {
